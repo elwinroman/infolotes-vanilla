@@ -39,7 +39,7 @@ body {
   box-shadow: var(--shadow-elevation-low);
 }
 .navbar h1 {
-  color: white;
+  color: black;
   font-size: 1rem;
 }
 
@@ -98,6 +98,8 @@ form button:hover {
 /* info container */
 main.info {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 /* card not found */
 .not-found {
@@ -111,6 +113,7 @@ main.info {
 }
 /* card success */
 .card {
+  width: 100%;
   background-image: url("public/card-bg.avif");
   display: flex;
   flex-direction: column;
